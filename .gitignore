@@ -1,0 +1,21 @@
+# Environments
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Model / cache files
+.cache/
+huggingface/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Outputs
+results/
+.DS_Store
